@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+    background-color: #DBE2EF;
+    color: #3F72AF;
+    font-family: 'Barlow Condensed';
+}
+p {
+    color: #112D4E;
+    font-size: 18px;
+    font-family: "Montserrat";
+}
+a {
+    font-family: "Barlow Condensed";
+    color: #3F72AF;
+    text-decoration: none;
+}
