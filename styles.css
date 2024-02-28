@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 body {
-    background-color: #DBE2EF;
+    background-color: #dbe2ef;
     color: #3F72AF;
     font-family: 'Barlow Condensed';
 }
@@ -26,6 +26,12 @@ main{
 h1{
     text-align: center;
 }
+.navbar {
+    position: sticky;
+        top: 0;
+        width: 100%;    
+    
+}
 .navbar ul{
     list-style-type: none;
     background-color: #112D4E;
@@ -43,6 +49,12 @@ h1{
 .navbar a:hover{
     background-color: #081728;
 }
+.navbar a:visited{
+    color: #bccae3;
+}
 .navbar li{
     float: left;
 }
+figcaption {
+font-size: 18px;
+}   
