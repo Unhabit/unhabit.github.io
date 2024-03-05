@@ -26,10 +26,12 @@ main{
 h1{
     text-align: center;
 }
+
 .navbar {
     position: sticky;
         top: 0;
-        width: 100%;    
+        width: 100%;  
+        z-index: 200; 
     
 }
 .navbar ul{
@@ -100,7 +102,6 @@ form > input + button {
   }
   
   button {
-    width: 111%;
     padding:10px;
     background-color: #007bff;
     color: #fff;
@@ -113,9 +114,9 @@ form > input + button {
     background-color: #0056b3;
   }
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 600px) and (min-width:600px){
     .container {
-      width: 90%;
+      width: 100%;
       margin: 30px auto;
     }
   }
@@ -133,4 +134,24 @@ form > input + button {
     left: 10px; 
     top: 50%;
     transform: translateY(-50%);
+}
+
+.fa-square-github{
+    font-size: 80px;
+    color: #333;
+}
+
+.fa-square-instagram{
+    font-size: 80px;
+    color: #bc2a8d
+}
+
+.fa-linkedin{
+    font-size: 80px;
+    color: #0077b5;
+}
+
+.ct{
+    background-color: #bccae3;
+    border-radius: 3px;
 }
